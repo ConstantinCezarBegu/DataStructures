@@ -127,10 +127,10 @@ public class WordCountLinkedList254 {
         LinkedList<Entry<String, Integer>> list = new LinkedList<Entry<String, Integer>>();
         for (int j = 0; j < tokens.length; j++) {   //2n
             String word = tokens[j];                //n
-            boolean found = false;                  //n
+            boolean found = false;
+            ListIterator<Entry<String, Integer>> iterator =  list.listIterator();
             for (int i = 0; i < list.size(); i++) { //2m
-                Entry<String, Integer> e = list.get(i); //m(hidden loop)
-
+                Entry<String, Integer> e = iterator.next(); //m(hidden loop)
                 if (word.equals(e.getKey())) {  //m
                     e.setValue(e.getValue() + 1);
                     list.set(i, e);

@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42aae5e3-0c8b-46bd-ab7c-35bbc4d3043d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/const.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/GameEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/ScoreBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/ScoreBoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Lab3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab4/MaxStringHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/midPractice/ArrayPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/midPractice/stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/Lab1/WordCountLinkedList254.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/Lab1/WordCountLinkedList254.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/Lab2/WordCountSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/Lab2/WordCountSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab1/WordCountLinkedList254.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/WordCountLinkedList254.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/WordCountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/WordCountSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +26,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-559992833">
@@ -49,59 +78,53 @@
     <session id="-1428178829">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="42" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="42" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="214" />
+          <entry key="java" value="12838" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="214" />
+          <entry key="JAVA" value="12838" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab1/WordCountLinkedList254.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="192" selection-start-line="192" selection-end-line="210" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#count_ARRAY#0;class#WordCountLinkedList254#0" />
-                <element signature="docComment;method#count_LINKED_LIST#0;class#WordCountLinkedList254#0" />
-                <element signature="docComment;method#count_LINKED_LIST_IMPROVED#0;class#WordCountLinkedList254#0" />
-                <element signature="method#count_LINKED_LIST_IMPROVED#0;class#WordCountLinkedList254#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lab2/WordCountSort.java">
+        <entry file="file://$PROJECT_DIR$/src/ass4/WordCountHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="188" column="23" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="175" column="40" lean-forward="true" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1840#1841#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="class#HeapInt#0" />
               </folding>
             </state>
           </provider>
@@ -109,11 +132,21 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>iterator(</find>
       <find>Sys</find>
       <find>list</find>
+      <find>palind</find>
+      <find>sort(int</find>
+      <find>sort(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,8 +155,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/ArrayPractice/GameEntry.java" />
+        <option value="$PROJECT_DIR$/src/ArrayPractice/ScoreBoardTest.java" />
+        <option value="$USER_HOME$/Desktop/STUDENTS TEST FOLDER/palinTester.java" />
+        <option value="$USER_HOME$/Desktop/STUDENTS TEST FOLDER/palindromeTester.java" />
+        <option value="$USER_HOME$/Downloads/WordCountSort (1).java" />
+        <option value="$PROJECT_DIR$/src/ArrayPractice/ScoreBoard.java" />
+        <option value="$PROJECT_DIR$/src/Test/Test.java" />
+        <option value="$PROJECT_DIR$/src/midPractice/stack.java" />
+        <option value="$PROJECT_DIR$/src/midPractice/ArrayPractice.java" />
         <option value="$PROJECT_DIR$/src/Lab1/WordCountLinkedList254.java" />
+        <option value="$PROJECT_DIR$/src/Lab3/Stack.java" />
+        <option value="$PROJECT_DIR$/src/Lab3/Lab3.java" />
+        <option value="$PROJECT_DIR$/src/ArrayPractice/gaba.java" />
+        <option value="$PROJECT_DIR$/src/ArrayPractice/sad.java" />
         <option value="$PROJECT_DIR$/src/Lab2/WordCountSort.java" />
+        <option value="$PROJECT_DIR$/src/Lab4/WordCountHeap.java" />
+        <option value="$PROJECT_DIR$/src/ass4/WordCountHeap.java" />
       </list>
     </option>
   </component>
@@ -134,10 +182,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="325" />
-    <option name="y" value="-30" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="530" />
+    <option name="y" value="-15" />
+    <option name="width" value="1950" />
+    <option name="height" value="2175" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,28 +209,30 @@
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="ass4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="ass4" type="462c0819:PsiDirectoryNode" />
+              <item name="WordCountHeap.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Constantin/IdeaProjects/DataStructures/src/Lab1/WordCountLinkedList254.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539306739634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542209621049" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,7 +246,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCountSort">
+  <component name="RunManager" selected="Application.WordCountHeap">
+    <configuration name="ArrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="midPractice.ArrayPractice" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="midPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Lab3" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ass4.WordCountHeap" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ass4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCountLinkedList254" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab1.WordCountLinkedList254" />
       <module name="DataStructures" />
@@ -210,27 +312,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.WordCountSort" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ArrayPractice" />
+      <item itemvalue="Application.Lab3" />
       <item itemvalue="Application.WordCountLinkedList254" />
-      <item itemvalue="Application.WordCountSort" />
+      <item itemvalue="Application.WordCountHeap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCountSort" />
+        <item itemvalue="Application.WordCountHeap" />
+        <item itemvalue="Application.Lab3" />
         <item itemvalue="Application.WordCountLinkedList254" />
+        <item itemvalue="Application.ArrayPractice" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -244,37 +339,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537194986533</updated>
-      <workItem from="1539303742528" duration="2470000" />
+      <workItem from="1539303742528" duration="9365000" />
+      <workItem from="1539361251002" duration="9159000" />
+      <workItem from="1539614931230" duration="11631000" />
+      <workItem from="1539784146281" duration="2410000" />
+      <workItem from="1539791187573" duration="304000" />
+      <workItem from="1540066550507" duration="9462000" />
+      <workItem from="1540259375465" duration="1189000" />
+      <workItem from="1540309403977" duration="17942000" />
+      <workItem from="1540390779024" duration="1914000" />
+      <workItem from="1540487088090" duration="1174000" />
+      <workItem from="1540913298145" duration="762000" />
+      <workItem from="1540914786573" duration="1619000" />
+      <workItem from="1540999917975" duration="685000" />
+      <workItem from="1542038282580" duration="3178000" />
+      <workItem from="1542093415552" duration="2557000" />
+      <workItem from="1542201571440" duration="2584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2470000" />
+    <option name="totallyTimeSpent" value="75935000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15828303" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19852448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.308311" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952183" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32841823" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32952183" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32841823" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,6 +401,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32871014" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,28 +419,146 @@
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Map.java" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/LinkedList.java" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/function/Function.java" />
+    <entry file="file://$USER_HOME$/Desktop/STUDENTS TEST FOLDER/Dariq Ahmed/palindrome.java" />
+    <entry file="file://$USER_HOME$/Desktop/STUDENTS TEST FOLDER/Dariq Ahmed/palindromeTester.java" />
+    <entry file="file://$USER_HOME$/Desktop/STUDENTS TEST FOLDER/palinTester.java" />
+    <entry file="file://$USER_HOME$/Desktop/STUDENTS TEST FOLDER/palindrome.java" />
+    <entry file="file://$USER_HOME$/Desktop/STUDENTS TEST FOLDER/palindromeTester.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="226" column="29" selection-start-line="226" selection-start-column="24" selection-end-line="226" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/WordCountSort.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="1193" column="15" selection-start-line="1193" selection-start-column="15" selection-end-line="1193" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayPractice/ScoreBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/WordCountSort (1).java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab3.java" />
+    <entry file="file://$PROJECT_DIR$/src/midPractice/stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayPractice/GameEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab1/WordCountLinkedList254.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="192" selection-start-line="192" selection-end-line="210" selection-end-column="5" />
+        <state relative-caret-position="2159">
+          <caret line="133" column="51" selection-start-line="132" selection-start-column="43" selection-end-line="133" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayPractice/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="126" column="52" selection-start-line="126" selection-start-column="52" selection-end-line="126" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/midPractice/ArrayPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayPractice/gaba.java" />
+    <entry file="file://$PROJECT_DIR$/src/ArrayPractice/sad.java" />
+    <entry file="file://$PROJECT_DIR$/src/Lab3/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/WordCountHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#count_ARRAY#0;class#WordCountLinkedList254#0" />
-            <element signature="docComment;method#count_LINKED_LIST#0;class#WordCountLinkedList254#0" />
-            <element signature="docComment;method#count_LINKED_LIST_IMPROVED#0;class#WordCountLinkedList254#0" />
-            <element signature="method#count_LINKED_LIST_IMPROVED#0;class#WordCountLinkedList254#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/MaxStringHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab3/Lab3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2/WordCountSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="188" column="23" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
+        <state relative-caret-position="-2235">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dblp.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dblp1m.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-5865" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ass4/WordCountHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="175" column="40" lean-forward="true" selection-start-line="175" selection-start-column="40" selection-end-line="175" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="class#HeapInt#0" />
           </folding>
         </state>
       </provider>
