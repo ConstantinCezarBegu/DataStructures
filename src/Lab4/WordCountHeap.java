@@ -51,6 +51,13 @@ public class WordCountHeap {
     
     private static void sink(String[] pq, int k, int n) {
 	    //your code goes here
+		while (2*k <= n){
+			int parent = 2*k;
+			if(parent < n && less(pq, parent, parent + 1)) parent++;
+			if (!less(pq, k, parent)) break;
+			exch(pq, k, parent);
+			k = parent;
+		}
     }
 
 /** Note that less and exch are defined to offset the 1-based array **/
@@ -111,9 +118,9 @@ public class WordCountHeap {
 				maxCount = counts[i];
 			}
 		}
-//		HeapInt h=new HeapInt(counts);
-//		for (int i=0; i<10; i++)
-//			System.out.println(h.removeMax());
+		HeapInt h = new HeapInt(counts);
+		for (int i=0; i<20; i++)
+			System.out.println(h.removeMax());
 
 		return new AbstractMap.SimpleEntry<>(maxWord, maxCount);
 	}
@@ -160,6 +167,62 @@ public class WordCountHeap {
 				System.out.println(METHODS[i] + " method\t time=" + time + ". Most popular word is " + entry.getKey()
 						+ ":" + entry.getValue());
 			}
+		}
+	}
+
+	static class HeapInt {
+		private int [] heap ;
+		int n =0;
+		// Heap constructor
+		public HeapInt (int [] a){
+			n = a.length ;
+			for (int k = n/2; k >= 1; k--){
+				heapify(a ,n,k);
+			}
+			heap =a;
+		}
+		public int removeMax () {
+			heapify(heap, n, 0);
+			int max = heap[0];
+			//heap[0] = heap[n -1];
+			exch(heap, 1, n);
+			n--;
+			heapify(heap, n,max);
+			return max;
+		}
+		void heapify(int arr[], int n, int i)
+		{
+			int largest = i; // Initialize largest as root
+			int l = 2*i + 1; // left = 2*i + 1
+			int r = 2*i + 2; // right = 2*i + 2
+
+			// If left child is larger than root
+			if (l < n && arr[l] > arr[largest]){
+				largest = l;
+			}
+
+
+			// If right child is larger than largest so far
+			if (r < n && arr[r] > arr[largest]){
+				largest = r;
+			}
+
+
+			// If largest is not root
+			if (largest != i)
+			{
+				int swap = arr[i];
+				arr[i] = arr[largest];
+				arr[largest] = swap;
+
+				// Recursively heapify the affected sub-tree
+				heapify(arr, n, largest);
+			}
+		}
+		private void exch(int[] pq, int i, int j) {
+			int swap = pq[i-1];
+			pq[i-1] = pq[j-1];
+			pq[j-1] = swap;
 		}
 	}
 }
