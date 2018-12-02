@@ -25,6 +25,7 @@ public class HashMap254<Key, Value> {
 			st[i] = new LinkedListForHash254<Key, Value>();
 	}
 
+
 	// resize the hash table to have the given number of chains,
 	// rehashing all of the keys
 	private void resize(int n) {
